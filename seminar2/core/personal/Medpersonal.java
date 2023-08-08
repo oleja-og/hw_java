@@ -1,11 +1,11 @@
-package src.gb.lessons.interfaces.core.personal;
+package seminar2.core.personal;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
-import src.gb.lessons.interfaces.core.clients.supports.Record;
+import seminar2.core.clients.owners.Owner;
+import seminar2.core.clients.supports.Record;
 
 public class Medpersonal {
     protected final String CLASS_NAME = "The " + getClass().getSimpleName();

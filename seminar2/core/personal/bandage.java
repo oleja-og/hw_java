@@ -1,4 +1,4 @@
-package src.gb.lessons.interfaces.core.personal;
+package seminar2.core.personal;
 
 public interface bandage {
     void bandage();

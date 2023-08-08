@@ -1,6 +1,6 @@
 package lesson_1;
 
-import java.text.Format;
+
 import java.util.Scanner;
 
 /* Вычислить n-ое треугольного число (сумма чисел от 1 до n), n! (произведение чисел от 1 до n)*/

@@ -1,18 +1,18 @@
-package src.gb.lessons.interfaces.core;
+package seminar2.core;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import src.gb.lessons.interfaces.core.clients.Animal;
-import src.gb.lessons.interfaces.core.clients.Animals;
-import src.gb.lessons.interfaces.core.clients.Flyable;
-import src.gb.lessons.interfaces.core.clients.Human;
-import src.gb.lessons.interfaces.core.clients.Runable;
-import src.gb.lessons.interfaces.core.clients.Soundable;
-import src.gb.lessons.interfaces.core.clients.Swimable;
-import src.gb.lessons.interfaces.core.clients.home.impl.Cat;
-import src.gb.lessons.interfaces.core.clients.home.impl.Dog;
-import src.gb.lessons.interfaces.core.clients.home.impl.Fish;
+import seminar2.core.clients.Animal;
+import seminar2.core.clients.Animals;
+import seminar2.core.clients.Flyable;
+import seminar2.core.clients.Human;
+import seminar2.core.clients.Runable;
+import seminar2.core.clients.Soundable;
+import seminar2.core.clients.Swimable;
+import seminar2.core.clients.home.impl.Cat;
+import  seminar2.core.clients.home.impl.Dog;
+import seminar2.core.clients.home.impl.Fish;
 
 public class VetClinic {
     private static List<Animals> animals = new ArrayList<>(); 
@@ -59,8 +59,7 @@ public class VetClinic {
         }
     }
 
-
-     private static void allswim(Animals element) {
+    private static void allswim(Animals element) {
             if (element instanceof Swimable){
                 System.out.println(element.getClassName()+ " плавать");
 

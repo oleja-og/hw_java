@@ -1,10 +1,10 @@
-package src.gb.lessons.interfaces.core.clients.wild.impl;
+package seminar2.core.clients.wild.impl;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.Runable;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
-import src.gb.lessons.interfaces.core.clients.wild.WildAnimal;
+import seminar2.core.clients.Runable;
+import seminar2.core.clients.owners.Owner;
+import seminar2.core.clients.wild.WildAnimal;
 
 /**
  Одна из реализаций дикого животного

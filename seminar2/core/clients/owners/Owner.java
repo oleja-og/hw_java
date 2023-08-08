@@ -1,10 +1,10 @@
-package src.gb.lessons.interfaces.core.clients.owners;
+package seminar2.core.clients.owners;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import src.gb.lessons.interfaces.core.clients.Animal;
-import src.gb.lessons.interfaces.core.clients.Human;
+import seminar2.core.clients.Animal;
+import seminar2.core.clients.Human;
 
 /**
  Хозяин животного, пациента клиники

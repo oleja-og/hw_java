@@ -1,4 +1,4 @@
-package src.gb.lessons.interfaces.core.clients.supports;
+package seminar2.core.clients.supports;
 
 import java.util.Date;
 

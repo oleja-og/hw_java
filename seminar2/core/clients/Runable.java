@@ -1,4 +1,4 @@
-package src.gb.lessons.interfaces.core.clients;
+package seminar2.core.clients;
 
 public interface Runable {
     int run();

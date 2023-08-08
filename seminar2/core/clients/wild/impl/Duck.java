@@ -1,11 +1,11 @@
-package src.gb.lessons.interfaces.core.clients.wild.impl;
+package seminar2.core.clients.wild.impl;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.Flyable;
-import src.gb.lessons.interfaces.core.clients.Runable;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
-import src.gb.lessons.interfaces.core.clients.wild.WildAnimal;
+import seminar2.core.clients.Flyable;
+import seminar2.core.clients.Runable;
+import seminar2.core.clients.owners.Owner;
+import seminar2.core.clients.wild.WildAnimal;
 
 public class Duck extends WildAnimal implements Flyable, Runable {
     public Duck() {

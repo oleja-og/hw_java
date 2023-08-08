@@ -1,12 +1,12 @@
-package src.gb.lessons.interfaces.core.clients;
+package seminar2.core.clients;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
-import src.gb.lessons.interfaces.core.clients.supports.Record;
+import seminar2.core.clients.owners.Owner;
+import seminar2.core.clients.supports.Record;
 
 /**
   Абстракция животного - пациента ветклиники.

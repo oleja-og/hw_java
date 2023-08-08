@@ -2,7 +2,6 @@ package lesson_3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 
 /* Пусть дан произвольный список целых чисел.
 

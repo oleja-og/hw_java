@@ -1,8 +1,8 @@
-package src.gb.lessons.interfaces.core.personal;
+package seminar2.core.personal;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
+import seminar2.core.clients.owners.Owner;
 
 public class Doctor extends Medpersonal implements operation{
     public Doctor() {

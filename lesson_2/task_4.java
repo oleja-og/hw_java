@@ -1,7 +1,7 @@
 package lesson_2;
 
 import java.io.FileWriter;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 /* Реализовать простой калькулятор (+-/*) */

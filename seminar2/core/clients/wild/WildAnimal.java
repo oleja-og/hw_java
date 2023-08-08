@@ -1,15 +1,15 @@
-package src.gb.lessons.interfaces.core.clients.wild;
+package seminar2.core.clients.wild;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 import java.util.List;
 
-import src.gb.lessons.interfaces.core.clients.Animal;
-import src.gb.lessons.interfaces.core.clients.Animals;
-import src.gb.lessons.interfaces.core.clients.Soundable;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
-import src.gb.lessons.interfaces.core.clients.supports.Record;
+import seminar2.core.clients.Animal;
+import seminar2.core.clients.Animals;
+import seminar2.core.clients.Soundable;
+import seminar2.core.clients.owners.Owner;
+import seminar2.core.clients.supports.Record;
 
 /**
  Абстракция дикого животного

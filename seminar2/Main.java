@@ -1,9 +1,9 @@
-package src.gb.lessons.interfaces;
+package seminar2;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.home.impl.Cat;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
+import seminar2.core.clients.home.impl.Cat;
+import seminar2.core.clients.owners.Owner;
 
 /**
  Небольшая шпаргалка по синтаксису java:
@@ -19,8 +19,8 @@ public class Main {
         Cat homeCat =
                 new Cat(2, "Tom", 4, LocalDate.of(2022, 4,13), new Owner("Ivanov Ivan"));
 
-        src.gb.lessons.interfaces.core.clients.wild.impl.WildCat wildCat =
-                new src.gb.lessons.interfaces.core.clients.wild.impl.WildCat(
+                seminar2.core.clients.wild.impl.WildCat wildCat =
+                new seminar2.core.clients.wild.impl.WildCat(
                         1, 4, LocalDate.of(2023, 1, 5), new Owner("incognito"));
 
         homeCat.hunt();

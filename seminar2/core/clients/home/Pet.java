@@ -1,11 +1,11 @@
-package src.gb.lessons.interfaces.core.clients.home;
+package seminar2.core.clients.home;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.Animal;
-import src.gb.lessons.interfaces.core.clients.Animals;
-import src.gb.lessons.interfaces.core.clients.Soundable;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
+import seminar2.core.clients.Animal;
+import seminar2.core.clients.Animals;
+import seminar2.core.clients.Soundable;
+import seminar2.core.clients.owners.Owner;
 
 /**
  Абстракция домашнего животного

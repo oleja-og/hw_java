@@ -1,11 +1,6 @@
 package lesson_2;
 
 import java.util.Scanner;
-
-import org.w3c.dom.Text;
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.ArrayList;
 /*1) Дана строка sql-запроса "select * from students WHERE ".
  Сформируйте часть WHERE этого запроса, используя StringBuilder. 

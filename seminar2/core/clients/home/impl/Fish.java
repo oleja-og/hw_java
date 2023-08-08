@@ -1,11 +1,11 @@
-package src.gb.lessons.interfaces.core.clients.home.impl;
+package seminar2.core.clients.home.impl;
 
 import java.time.LocalDate;
 
-import src.gb.lessons.interfaces.core.clients.Flyable;
-import src.gb.lessons.interfaces.core.clients.Swimable;
-import src.gb.lessons.interfaces.core.clients.home.Pet;
-import src.gb.lessons.interfaces.core.clients.owners.Owner;
+import seminar2.core.clients.Flyable;
+import seminar2.core.clients.Swimable;
+import seminar2.core.clients.home.Pet;
+import seminar2.core.clients.owners.Owner;
 
 public class Fish extends Pet implements Swimable,Flyable {
     public Fish() {
