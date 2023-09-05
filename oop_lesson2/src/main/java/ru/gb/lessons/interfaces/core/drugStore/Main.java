@@ -70,12 +70,7 @@ public class Main {
         resultset.add(pharmacy3);
         resultset.add(pharmacy4);
 
-        if (pharmacy1.equals(pharmacy1)) {
-            System.out.println("Equal ");
-        } else {
-            System.out.println("Not Equal ");
-        }
-
+        
         System.out.println(resultset.size()); 
          System.out.println(resultset); 
     }

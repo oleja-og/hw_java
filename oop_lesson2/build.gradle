@@ -17,3 +17,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+dependencies {
+    // Другие зависимости
+    implementation 'com.google.code.gson:gson:2.8.9'
+}
