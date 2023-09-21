@@ -1,5 +1,5 @@
 
-public class ShopToy {
+public class ShopToy implements Iterator<Toy>{
     private List<Toy> toys;
     private int index;
 

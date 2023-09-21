@@ -1,11 +1,11 @@
 
 public class Toy {
-    private Integer id ;
+    private String id ;
     private String name;
-    private Integer weigth;
-    private double chance;
+    private String weigth;
+    private String chance;
 
-    public Toy(Integer id, String name, Integer weigth, double chance) {
+    public Toy(String id, String name, String weigth, String chance) {
         this.id = id;
         this.name = name;
         this.weigth = weigth;
@@ -16,7 +16,7 @@ public class Toy {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -32,7 +32,7 @@ public class Toy {
         return weigth;
     }
 
-    public void setWeigth(Integer weigth) {
+    public void setWeigth(String weigth) {
         this.weigth = weigth;
     }
 
@@ -40,7 +40,7 @@ public class Toy {
         return chance;
     }
 
-    public void setChance(double chance) {
+    public void setChance(String chance) {
         this.chance = chance;
     }
 
@@ -53,4 +53,6 @@ public class Toy {
                 ", chance=" + chance +
                 '}';
     }
+
+
 }
